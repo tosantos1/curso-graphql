@@ -1,0 +1,9 @@
+type Query {
+    ola: String
+    horaAtual: String
+    usuarioLogado: Usuario
+    produtoEmDestaque: Produto
+    usuarios: [Usuario]
+    perfis: [Perfil]
+    perfil(id: Int): Perfil
+}
