@@ -1,11 +1,11 @@
 // Update with your config settings.
 
 module.exports = {
-  client: 'postgresql',
+  client: 'mysql',
   connection: {
-    database: 'my_db',
-    user: 'username',
-    password: 'password'
+    database: 'udemy',
+    user: 'root',
+    password: 'Livramento1997@'
   },
   pool: {
     min: 2,
